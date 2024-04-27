@@ -1,0 +1,237 @@
+{
+    "os": "Linux-5.15.0-102-generic-x86_64-with-glibc2.17",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-04-26T16:28:44.559267",
+    "startedAt": "2024-04-26T16:28:42.948073",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--img",
+        "1024",
+        "--adam",
+        "--batch",
+        "1",
+        "--epochs",
+        "80",
+        "--data",
+        "./data/USVID.yaml",
+        "--weights",
+        "runs/train/NPS/image_size_1280_temporal_YOLO5l_5_frames_NPS_end_to_end_skip_0/weights/best.pt",
+        "--hy",
+        "./data/hyps/hyp.VisDrone.yaml",
+        "--cfg",
+        "./models/yolov5l.yaml",
+        "--project",
+        "./runs/train/USVID",
+        "--name",
+        "visualization_5_frames",
+        "--exist-ok"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/tusharsangam/TransVisDrone.git",
+        "commit": "0f42fd9790d2cc6ac3663ef8d4f5707c2f18f31f"
+    },
+    "email": "gjh_hust@foxmail.com",
+    "root": "/data1/jiahaoguo/TransVisDrone",
+    "host": "hustvl-Super-Server",
+    "username": "jiahaoguo",
+    "executable": "/data1/jiahaoguo/miniconda3/envs/transvisdrone/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 1391.18428125,
+        "min": 1200.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1532.732,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1300.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1300.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2600.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1300.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1300.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1500.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1300.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1300.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1200.0,
+            "min": 1200.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 280.5496139526367,
+            "used": 37.51394271850586
+        }
+    },
+    "gpu": "NVIDIA TITAN Xp COLLECTORS EDITION",
+    "gpu_count": 3,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA TITAN Xp COLLECTORS EDITION",
+            "memory_total": 12884901888
+        },
+        {
+            "name": "NVIDIA TITAN Xp",
+            "memory_total": 12884901888
+        },
+        {
+            "name": "NVIDIA TITAN Xp COLLECTORS EDITION",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 62.76140213012695
+    }
+}

@@ -1,0 +1,142 @@
+2024-04-26 16:07:36,379 INFO    StreamThr :345283 [internal.py:wandb_internal():86] W&B internal server running at pid: 345283, started at: 2024-04-26 16:07:36.376177
+2024-04-26 16:07:36,387 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: status
+2024-04-26 16:07:36,397 INFO    WriterThread:345283 [datastore.py:open_for_write():87] open: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/run-va6melbp.wandb
+2024-04-26 16:07:36,399 DEBUG   SenderThread:345283 [sender.py:send():379] send: header
+2024-04-26 16:07:36,425 DEBUG   SenderThread:345283 [sender.py:send():379] send: run
+2024-04-26 16:07:36,474 INFO    SenderThread:345283 [sender.py:_setup_resume():749] checking resume status for None/testUSVID/va6melbp
+2024-04-26 16:07:37,546 INFO    SenderThread:345283 [dir_watcher.py:__init__():211] watching files in: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files
+2024-04-26 16:07:37,546 INFO    SenderThread:345283 [sender.py:_start_run_threads():1124] run started: va6melbp with start time 1714118856.371986
+2024-04-26 16:07:37,584 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: check_version
+2024-04-26 16:07:37,585 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: check_version
+2024-04-26 16:07:37,949 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: run_start
+2024-04-26 16:07:37,992 DEBUG   HandlerThread:345283 [system_info.py:__init__():26] System info init
+2024-04-26 16:07:37,992 DEBUG   HandlerThread:345283 [system_info.py:__init__():41] System info init done
+2024-04-26 16:07:37,992 INFO    HandlerThread:345283 [system_monitor.py:start():194] Starting system monitor
+2024-04-26 16:07:37,994 INFO    HandlerThread:345283 [system_monitor.py:probe():214] Collecting system info
+2024-04-26 16:07:37,995 INFO    SystemMonitor:345283 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-26 16:07:37,999 INFO    SystemMonitor:345283 [interfaces.py:start():190] Started cpu monitoring
+2024-04-26 16:07:38,001 INFO    SystemMonitor:345283 [interfaces.py:start():190] Started disk monitoring
+2024-04-26 16:07:38,011 INFO    SystemMonitor:345283 [interfaces.py:start():190] Started gpu monitoring
+2024-04-26 16:07:38,014 INFO    SystemMonitor:345283 [interfaces.py:start():190] Started memory monitoring
+2024-04-26 16:07:38,017 INFO    SystemMonitor:345283 [interfaces.py:start():190] Started network monitoring
+2024-04-26 16:07:38,072 DEBUG   HandlerThread:345283 [system_info.py:probe():150] Probing system
+2024-04-26 16:07:38,089 DEBUG   HandlerThread:345283 [system_info.py:_probe_git():135] Probing git
+2024-04-26 16:07:38,118 DEBUG   HandlerThread:345283 [system_info.py:_probe_git():143] Probing git done
+2024-04-26 16:07:38,118 DEBUG   HandlerThread:345283 [system_info.py:probe():198] Probing system done
+2024-04-26 16:07:38,118 DEBUG   HandlerThread:345283 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-102-generic-x86_64-with-glibc2.17', 'python': '3.8.19', 'heartbeatAt': '2024-04-26T08:07:38.073056', 'startedAt': '2024-04-26T08:07:36.360440', 'docker': None, 'cuda': None, 'args': ('--img', '1024', '--adam', '--batch', '1', '--epochs', '80', '--data', './data/USVID.yaml', '--weights', './runs/train/NPS/image_size_1280_temporal_YOLO5l_5_frames_NPS_end_to_end_skip_0/weights/last.pt', '--hy', './data/hyps/hyp.VisDrone.yaml', '--cfg', './models/yolov5l.yaml', '--project', './runs/train/testUSVID', '--name', 'visualization_5_frames', '--exist-ok'), 'state': 'running', 'program': '/data1/jiahaoguo/TransVisDrone/train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'git': {'remote': 'https://github.com/tusharsangam/TransVisDrone.git', 'commit': '0f42fd9790d2cc6ac3663ef8d4f5707c2f18f31f'}, 'email': 'gjh_hust@foxmail.com', 'root': '/data1/jiahaoguo/TransVisDrone', 'host': 'hustvl-Super-Server', 'username': 'jiahaoguo', 'executable': '/data1/jiahaoguo/miniconda3/envs/transvisdrone/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 1361.46509375, 'min': 1200.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1900.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1541.617, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1800.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1500.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1400.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}, {'current': 1200.0, 'min': 1200.0, 'max': 3000.0}], 'disk': {'/': {'total': 280.5496139526367, 'used': 37.50614547729492}}, 'gpu': 'NVIDIA TITAN Xp COLLECTORS EDITION', 'gpu_count': 3, 'gpu_devices': [{'name': 'NVIDIA TITAN Xp COLLECTORS EDITION', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp', 'memory_total': 12884901888}, {'name': 'NVIDIA TITAN Xp COLLECTORS EDITION', 'memory_total': 12884901888}], 'memory': {'total': 62.76140213012695}}
+2024-04-26 16:07:38,119 INFO    HandlerThread:345283 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-26 16:07:38,119 INFO    HandlerThread:345283 [system_monitor.py:probe():227] Publishing system info
+2024-04-26 16:07:38,119 DEBUG   HandlerThread:345283 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-26 16:07:38,557 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_created():271] file/dir created: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/conda-environment.yaml
+2024-04-26 16:07:38,941 DEBUG   HandlerThread:345283 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-26 16:07:38,951 INFO    HandlerThread:345283 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-26 16:07:38,967 DEBUG   SenderThread:345283 [sender.py:send():379] send: files
+2024-04-26 16:07:38,967 INFO    SenderThread:345283 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-26 16:07:39,363 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-26 16:07:39,364 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: python_packages
+2024-04-26 16:07:39,369 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-26 16:07:39,371 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-26 16:07:39,372 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 16:07:39,549 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/conda-environment.yaml
+2024-04-26 16:07:39,550 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_created():271] file/dir created: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/requirements.txt
+2024-04-26 16:07:39,551 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_created():271] file/dir created: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/wandb-metadata.json
+2024-04-26 16:07:39,922 DEBUG   SenderThread:345283 [sender.py:send():379] send: telemetry
+2024-04-26 16:07:39,923 DEBUG   SenderThread:345283 [sender.py:send():379] send: config
+2024-04-26 16:07:40,042 INFO    wandb-upload_0:345283 [upload_job.py:push():131] Uploaded file /tmp/tmplylxp6hewandb/9l2fhbhu-wandb-metadata.json
+2024-04-26 16:07:41,925 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 16:07:43,176 DEBUG   SenderThread:345283 [sender.py:send():379] send: telemetry
+2024-04-26 16:07:43,484 DEBUG   SenderThread:345283 [sender.py:send():379] send: telemetry
+2024-04-26 16:07:44,556 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_created():271] file/dir created: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/output.log
+2024-04-26 16:07:46,559 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/output.log
+2024-04-26 16:07:47,021 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 16:07:47,559 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/output.log
+2024-04-26 16:07:48,560 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/output.log
+2024-04-26 16:07:49,561 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/output.log
+2024-04-26 16:07:52,722 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 16:07:54,366 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-26 16:07:54,368 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 16:07:54,382 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-26 16:07:57,730 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 16:08:02,731 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 16:08:07,748 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 16:08:08,576 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/config.yaml
+2024-04-26 16:08:09,366 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-26 16:08:09,367 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 16:08:09,407 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-26 16:08:13,483 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 16:08:14,009 DEBUG   SenderThread:345283 [sender.py:send():379] send: exit
+2024-04-26 16:08:14,009 INFO    SenderThread:345283 [sender.py:send_exit():586] handling exit code: 1
+2024-04-26 16:08:14,010 INFO    SenderThread:345283 [sender.py:send_exit():588] handling runtime: 36
+2024-04-26 16:08:14,020 INFO    SenderThread:345283 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 16:08:14,021 INFO    SenderThread:345283 [sender.py:send_exit():594] send defer
+2024-04-26 16:08:14,022 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:14,022 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-26 16:08:14,023 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: defer
+2024-04-26 16:08:14,024 INFO    SenderThread:345283 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-26 16:08:14,024 INFO    SenderThread:345283 [sender.py:transition_state():614] send defer: 1
+2024-04-26 16:08:14,024 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:14,024 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-26 16:08:14,025 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: defer
+2024-04-26 16:08:14,026 INFO    SenderThread:345283 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-26 16:08:14,026 INFO    SenderThread:345283 [sender.py:transition_state():614] send defer: 2
+2024-04-26 16:08:14,026 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:14,027 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-26 16:08:14,027 INFO    HandlerThread:345283 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-26 16:08:14,027 DEBUG   SystemMonitor:345283 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-26 16:08:14,028 DEBUG   SystemMonitor:345283 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-26 16:08:14,028 DEBUG   SystemMonitor:345283 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-26 16:08:14,033 INFO    HandlerThread:345283 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-26 16:08:14,034 INFO    HandlerThread:345283 [interfaces.py:finish():202] Joined disk monitor
+2024-04-26 16:08:14,448 INFO    HandlerThread:345283 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-26 16:08:14,449 INFO    HandlerThread:345283 [interfaces.py:finish():202] Joined memory monitor
+2024-04-26 16:08:14,449 INFO    HandlerThread:345283 [interfaces.py:finish():202] Joined network monitor
+2024-04-26 16:08:14,451 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: defer
+2024-04-26 16:08:14,451 INFO    SenderThread:345283 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-26 16:08:14,452 INFO    SenderThread:345283 [sender.py:transition_state():614] send defer: 3
+2024-04-26 16:08:14,452 DEBUG   SenderThread:345283 [sender.py:send():379] send: stats
+2024-04-26 16:08:14,455 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:14,455 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-26 16:08:14,456 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: defer
+2024-04-26 16:08:14,456 INFO    SenderThread:345283 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-26 16:08:14,456 INFO    SenderThread:345283 [sender.py:transition_state():614] send defer: 4
+2024-04-26 16:08:14,457 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:14,457 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-26 16:08:14,458 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: defer
+2024-04-26 16:08:14,458 INFO    SenderThread:345283 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-26 16:08:14,458 INFO    SenderThread:345283 [sender.py:transition_state():614] send defer: 5
+2024-04-26 16:08:14,459 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:14,459 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-26 16:08:14,460 DEBUG   SenderThread:345283 [sender.py:send():379] send: summary
+2024-04-26 16:08:14,461 INFO    SenderThread:345283 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-26 16:08:14,461 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: defer
+2024-04-26 16:08:14,461 INFO    SenderThread:345283 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-26 16:08:14,462 INFO    SenderThread:345283 [sender.py:transition_state():614] send defer: 6
+2024-04-26 16:08:14,462 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:14,462 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-26 16:08:14,463 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: defer
+2024-04-26 16:08:14,463 INFO    SenderThread:345283 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-26 16:08:14,463 INFO    SenderThread:345283 [sender.py:transition_state():614] send defer: 7
+2024-04-26 16:08:14,463 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 16:08:14,464 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:14,464 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-26 16:08:14,465 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: defer
+2024-04-26 16:08:14,465 INFO    SenderThread:345283 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-26 16:08:14,581 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/output.log
+2024-04-26 16:08:14,582 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_created():271] file/dir created: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/wandb-summary.json
+2024-04-26 16:08:15,009 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-26 16:08:16,783 INFO    SenderThread:345283 [sender.py:transition_state():614] send defer: 8
+2024-04-26 16:08:16,784 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: poll_exit
+2024-04-26 16:08:16,785 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:16,785 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-26 16:08:16,786 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: defer
+2024-04-26 16:08:16,787 INFO    SenderThread:345283 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-26 16:08:16,787 INFO    SenderThread:345283 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-26 16:08:16,792 INFO    SenderThread:345283 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-26 16:08:17,013 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-26 16:08:17,585 INFO    Thread-17 :345283 [dir_watcher.py:_on_file_modified():288] file/dir modified: /data1/jiahaoguo/TransVisDrone/wandb/run-20240426_160736-va6melbp/files/output.log
+2024-04-26 16:08:18,088 INFO    SenderThread:345283 [job_builder.py:build():431] adding wandb-job metadata file
+2024-04-26 16:08:18,107 INFO    SenderThread:345283 [sender.py:transition_state():614] send defer: 9
+2024-04-26 16:08:18,108 DEBUG   SenderThread:345283 [sender.py:send_request():406] send_request: poll_exit
+2024-04-26 16:08:18,108 DEBUG   SenderThread:345283 [sender.py:send():379] send: artifact
+2024-04-26 16:08:18,114 DEBUG   HandlerThread:345283 [handler.py:handle_request():146] handle_request: defer
+2024-04-26 16:08:18,114 INFO    HandlerThread:345283 [handler.py:handle_request_defer():172] handle defer: 9
